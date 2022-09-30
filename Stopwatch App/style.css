@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.container{
+    background-color: #ffffff;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    margin: 1em 0 0.5em 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(rgb(12, 145, 56), rgba(129, 18, 18, 0.359));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 58px;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+#time{
+    position: relative;
+    width: 92%;
+    background: #615555;
+    left: 4%;
+    padding: 10px 0;
+    font-family: 'Roboto mono',monospace;
+    color: #f3f8fa;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 125px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    
+}
+
+
+/* CSS */
+button {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+button:nth-child(even){
+    background-color: rgb(241, 64, 64);
+}
+button:last-child{
+    background-color: #20d364;
+}
+button:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
