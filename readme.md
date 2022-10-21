@@ -1,5 +1,7 @@
 # JavaScript Codesandbox projects
 
+[live link](https://javascript-mini-projects-fsjs.netlify.app/)
+
 - [Autocomplete Search](https://autocomplete-search-js-project.netlify.app/)
 - [Bookmark App](https://bookmark-js-project857.netlify.app/)
 - [Calculator App](https://calculator-jsmini-project.netlify.app/)
